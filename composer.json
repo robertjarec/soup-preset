@@ -1,0 +1,23 @@
+{
+    "name": "souptical/soup-preset",
+    "description": "A customized lLaravel preset.",
+    "keywords": [],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Robert Jarec",
+            "email": "24313969+robertjarec@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Soup\\SoupPreset\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": ["Soup\\SoupPreset\\SoupServiceProvider"]
+        }
+    }
+}
