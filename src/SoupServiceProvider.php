@@ -4,7 +4,7 @@ namespace Soup\SoupPreset;
 
 use Illuminate\Foundation\Console\PresetCommand;
 use Illuminate\Support\ServiceProvider;
-use Soup\Preset;
+use Soup\SoupPreset\Preset;
 
 class SoupServiceProvider extends ServiceProvider
 {
